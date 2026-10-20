@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Dağcan Hanifi Sonat</title>
+  <desc id="desc">Data, research and interface design</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10172b"/>
+      <stop offset="0.58" stop-color="#15283a"/>
+      <stop offset="1" stop-color="#173b43"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#53d6c7"/>
+      <stop offset="1" stop-color="#ffb36b"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#9ac4c7" stroke-opacity=".08" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="26" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="26" fill="url(#grid)"/>
+  <circle cx="1030" cy="86" r="150" fill="#53d6c7" opacity=".07"/>
+  <circle cx="1100" cy="220" r="110" fill="#ffb36b" opacity=".07"/>
+  <path d="M760 223 C820 190 856 204 900 160 S980 170 1022 115 S1090 129 1155 64" fill="none" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  <g fill="#a9e8df" opacity=".9">
+    <circle cx="760" cy="223" r="4"/><circle cx="900" cy="160" r="4"/><circle cx="1022" cy="115" r="4"/><circle cx="1155" cy="64" r="4"/>
+  </g>
+  <text x="76" y="122" fill="#f5f7f2" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="46" font-weight="650" letter-spacing="-1">Dağcan Hanifi Sonat</text>
+  <text x="79" y="166" fill="#b9d1d3" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="19" letter-spacing="2.2">DATA · RESEARCH · INTERFACES</text>
+  <rect x="78" y="204" width="88" height="4" rx="2" fill="url(#accent)"/>
+</svg>
